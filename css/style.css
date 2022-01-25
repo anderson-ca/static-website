@@ -49,6 +49,10 @@ a:hover {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
 
 /* background-color divs */
 
@@ -252,4 +256,19 @@ footer ul {
     border-top: 1px solid var(--aqua);
     border-radius: 25px;
     padding: 1rem;
+}
+
+@media (min-width: 560px) {
+    article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .text {
+        order: 2;
+        text-align: right;
+    }
+    #projects ul {
+        justify-content: flex-end;
+    }
 }
