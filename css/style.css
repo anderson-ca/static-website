@@ -50,6 +50,17 @@ a:hover {
 }
 
 
+/* background-color divs */
+
+.section-plum {
+    background-color: var(--plum);
+}
+
+.section-dkblue {
+    background-color: var(--dkblue);
+}
+
+
 /* intro styles */
 
 #intro {
@@ -81,10 +92,6 @@ a:hover {
 
 
 /* contact-me styles */
-
-.section-plum {
-    background-color: var(--plum);
-}
 
 .gradient {
     background: rgb(255, 23, 228);
@@ -195,4 +202,26 @@ footer ul {
     justify-content: center;
     gap: 3rem;
     font-size: 3rem;
+}
+
+
+/* projects styles */
+
+#projects {
+    padding: 4rem 1rem;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: calc(2.5rem * 1.5);
+}
+
+#projects h3 {
+    color: var(--aqua);
+}
+
+#projects h4 {
+    font-family: var(--mono);
+    font-size: 1rem;
+    margin: 0;
 }
