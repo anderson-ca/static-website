@@ -76,3 +76,22 @@ a:hover {
     font-size: 4rem;
     font-weight: normal;
 }
+
+
+/* contact-me styles */
+
+#contact-me {
+    background-color: var(--plum);
+    border-top: 1px solid var(--hotmag);
+    border-bottom: 1px solid var(--hotmag);
+    text-align: center;
+    padding: 5rem 30%;
+}
+
+#contact-me p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+/* navbar styles */
