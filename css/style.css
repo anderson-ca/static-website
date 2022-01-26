@@ -68,7 +68,8 @@ img {
 /* intro styles */
 
 #intro {
-    padding-bottom: 4rem 1rem 10rem 1rem;
+    padding: 4rem 1rem 10rem 1rem;
+    padding-bottom: 10rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -213,6 +214,8 @@ footer ul {
 
 #projects {
     padding: 4rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #projects h2 {
